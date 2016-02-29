@@ -76,12 +76,9 @@ ol, ul {
 /** HEADER SECTION **/
 
 .header {
-	width: 100%;
-	margin: auto;
 	background-position: center bottom;
 	background-size: cover;
     height: 45.938rem;
-
 	background-repeat: no-repeat;
 	background-image: url(images/first-background.jpg);
 	padding: 300px 0;
@@ -89,21 +86,18 @@ ol, ul {
 	
 }
 
-.header-h1 {
+.header-h1, .header-h3 {
 	font-weight: 300;
 	color: white;
+}
+.header-h1 {
 	font-size: 3em;
-	
 }
 
 .header-h3 {
-	font-weight: 300;
-	color: white;
 	font-size: 1.5em;
 	margin-top: -0.5em;
-	
 }
-
 
 .header > .button{
 	width: 200px;
@@ -111,10 +105,12 @@ ol, ul {
 	background-color: #F15A2A;
 	border-radius: 0.3em;
 	font-size: 1.1em;
-	
-
 }
 
+.header >.button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
 
 
 
