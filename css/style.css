@@ -25,11 +25,11 @@ ol, ul {
 	list-style: none;
 }
 
-.content {
+.content, .button {
 	padding:0 15px;
 	margin:0 auto;
 }
-/* adding a comment */
+
 /** NAVIGATION SECTION **/
 .top-navigation {
 	background-color:#fff;
@@ -73,12 +73,45 @@ ol, ul {
 	color: #333333;
 }
 
+/** HEADER SECTION **/
+
+.header {
+	width: 100%;
+	margin: auto;
+	padding: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(images/first-background.jpg);
+	padding: 300px 0;
+	text-align: center;
+	
+}
+
+.header-h1 {
+	font-weight: 300;
+	color: white;
+	font-size: 3em;
+	
+}
+
+.header-h3 {
+	font-weight: 300;
+	color: white;
+	font-size: 1.5em;
+	margin-top: -0.5em;
+	
+}
 
 
+.header > .button{
+	width: 200px;
+	color: white;
+	background-color: #F15A2A;
+	border-radius: 0.3em;
+	font-size: 1.1em;
+	
 
-
-
-
+}
 
 
 
