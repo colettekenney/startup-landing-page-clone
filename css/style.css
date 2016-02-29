@@ -79,7 +79,8 @@ ol, ul {
 	width: 100%;
 	margin: auto;
 	padding: relative;
-	background-size: contain;
+	background-size: cover;
+    height: 45.938rem;
 	background-repeat: no-repeat;
 	background-image: url(images/first-background.jpg);
 	padding: 300px 0;
