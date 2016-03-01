@@ -85,7 +85,7 @@ ol, ul {
 	background-image: url(images/first-background.jpg);
 	padding: 300px 0;
 	text-align: center;
-	margin-bottom: 5.3em;
+	margin-bottom: 7.5em;
 }
 
 h1, h3 {
@@ -122,6 +122,7 @@ h3 {
 .choices {
 	background-color: white;
 }
+
 .choices .content h2 {
 	color: black;
 	font-weight: 300;
@@ -131,9 +132,11 @@ h3 {
 }
 
 .choices .icons > li {
-display: inline-block;
-width:33.3333333%;
-float: left;
+	display: inline-block;
+	width:33.3333333%;
+	float: left;
+	font-weight: 400;
+	font-size: 0.5em;
 
 }
 
@@ -142,3 +145,13 @@ img {
     height:auto;
 }
 
+h2{
+	font-weight: 300;
+	font-size: 1em;
+	text-align: center;
+}
+
+.choices .icons > p {
+	
+	margin-top: 1em;
+}
