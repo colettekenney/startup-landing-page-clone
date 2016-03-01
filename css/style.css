@@ -136,7 +136,7 @@ h3 {
 	width:33.3333333%;
 	float: left;
 	font-weight: 400;
-	font-size: 0.5em;
+	font-size: 0.55em;
 
 }
 
@@ -151,7 +151,6 @@ h2{
 	text-align: center;
 }
 
-.choices .icons > p {
-	
-	margin-top: 1em;
+.caption {
+	padding: 0.7em 0 0 0;
 }
