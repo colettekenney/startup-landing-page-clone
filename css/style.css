@@ -132,7 +132,8 @@ h3 {
 
 .choices .icons > li {
 display: inline-block;
-
+width:33.3333333%;
+float: left;
 
 }
 
