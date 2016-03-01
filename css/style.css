@@ -2,7 +2,6 @@ html{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	box-sizing: border-box;
 }
 
@@ -27,8 +26,11 @@ ol, ul {
 
 .content, .button {
 	padding:0 15px;
+	width: 1150px;
 	margin:0 auto;
 }
+
+
 
 /** NAVIGATION SECTION **/
 .top-navigation {
@@ -41,9 +43,6 @@ ol, ul {
 
 .top-navigation > .content {
 	height: 87px;
-	width: 1150px;
-	margin:auto;
-	
 }
 
 .top-navigation .logo {
@@ -83,7 +82,6 @@ ol, ul {
 	background-image: url(images/first-background.jpg);
 	padding: 300px 0;
 	text-align: center;
-	
 }
 
 h1, h3 {
@@ -100,7 +98,7 @@ h3 {
 	margin-top: -0.8em;
 }
 
-.header > .button{
+.content > .button{
 	width: 200px;
 	color: white;
 	background-color: #F15A2A;
@@ -113,6 +111,10 @@ h3 {
 	cursor: pointer;
 }
 
+/** ICON SECTION **/
 
+.choices > h1 {
+	color: black;
+}
 
 
