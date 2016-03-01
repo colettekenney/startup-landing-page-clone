@@ -24,10 +24,11 @@ ol, ul {
 	list-style: none;
 }
 
-.content, .button {
+.content, .header > .content, .button {
 	padding:0 15px;
 	width: 1150px;
 	margin:0 auto;
+	
 }
 
 
@@ -43,6 +44,8 @@ ol, ul {
 
 .top-navigation > .content {
 	height: 87px;
+	width: 1150px;
+	margin: auto;
 }
 
 .top-navigation .logo {
@@ -82,9 +85,11 @@ ol, ul {
 	background-image: url(images/first-background.jpg);
 	padding: 300px 0;
 	text-align: center;
+	margin-bottom: 5.3em;
 }
 
 h1, h3 {
+	text-align: center;
 	font-weight: 300;
 	color: white;
 }
@@ -104,6 +109,7 @@ h3 {
 	background-color: #F15A2A;
 	border-radius: 0.3em;
 	font-size: 1.1em;
+	text-align: center;
 }
 
 .header >.button:hover {
@@ -113,8 +119,25 @@ h3 {
 
 /** ICON SECTION **/
 
-.choices > h1 {
+.choices {
+	background-color: white;
+}
+.choices .content h2 {
 	color: black;
+	font-weight: 300;
+	font-size: 2.7em;
+	text-align: center;
+	
 }
 
+.choices .icons > li {
+display: inline-block;
+
+
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
 
