@@ -82,7 +82,7 @@ ol, ul {
 	background-size: cover;
     height: 45.938rem;
 	background-repeat: no-repeat;
-	background-image: url(images/first-background.jpg);
+	background-image: url(../images/first-background.jpg);
 	padding: 15em 0;
 	text-align: center;
 	margin-bottom: 7.5em;
@@ -153,4 +153,10 @@ h2{
 
 .caption {
 	padding: 0.7em 0 0 0;
+}
+
+/** FOOTER SECTION **/
+.social .content {
+	border-top: solid 2px green;
+	padding: 10em;
 }
