@@ -10,24 +10,25 @@ html{
 }
 
 body {
-	background-color: lightgray;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 }
 
 div {
-	border: 1px solid chocolate;
+	/** border: 1px solid chocolate; **/
 }
 
 ol, ul {
 	list-style: none;
+	padding: 0px;
 }
 
 .content, .header > .content, .button {
 	padding:0 15px;
 	width: 60%;
 	margin:0 auto;
+
 	
 }
 
@@ -120,10 +121,10 @@ h3 {
 /** ICON SECTION **/
 
 .choices {
-	background-color: white;
+	margin-bottom: 75px;
 }
 
-.choices .content h2 {
+.choices h2 {
 	color: black;
 	font-weight: 300;
 	font-size: 2.7em;
@@ -133,10 +134,10 @@ h3 {
 
 .choices .icons > li {
 	display: inline-block;
-	width:33.3333333%;
-	float: left;
+	width:33%;
 	font-weight: 400;
-	font-size: 0.55em;
+	font-size: 1.5em;
+	text-align: center;
 
 }
 
@@ -156,7 +157,48 @@ h2{
 }
 
 /** FOOTER SECTION **/
-.social .content {
-	border-top: solid 2px green;
-	padding: 10em;
+footer .content {
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+footer hr {
+	border:0;
+	border-top:1px solid #eaebec;
+	margin: 25px;
+}
+footer h5 {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+footer p {
+	color: #838994;
+	font-weight: 300;
+	font-size: 0.9em
+}
+footer li {
+	display: inline-block;
+	font-size: 1.125em;
+	margin-left: 5px;
+}
+
+footer li div {
+	height: 50px;
+	width: 50px;
+	border: 1px solid #eaebec;
+	border-radius: 50%;
+	padding: 10px;
+	
+}
+.fa-twitter {
+	color: #55acee;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-instagram {
+	color: #125688;
 }
